@@ -752,10 +752,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /**
  * ===================================================================
  * 07. other components - (_others.scss)
- *
+ * 
  * -------------------------------------------------------------------
  */
-
+.avatar {
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
 /**
  * alert box - (_alert-box.scss)
  * -------------------------------------------------------------------
@@ -967,7 +972,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #cc005f;
+	background: darkcyan;
 	position: relative;
 	height: 100%;
 }
@@ -1046,7 +1051,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .section-intro h5 {
 	color: #FF0077;
-	font-size: 1.6rem;
+	font-size: 2.0rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
@@ -1495,7 +1500,7 @@ header .logo a {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 12rem;
+	padding-top: 5rem;
 	padding-bottom: 15rem;
 }
 #about .section-intro {
@@ -1512,12 +1517,11 @@ header .logo a {
 	width: 20rem;
 	border-radius: 100%;
 	margin: 0rem 5 0 50;
-	float: left;
-	margin-right: 30px;
+	margin-right: 6px;
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 15rem;
+	/* padding-left: 15rem; */
 	color: black;
 }
 
@@ -1609,8 +1613,8 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 11.6rem;
+		width: 11.6rem;
 		float: none;
 		display: inline-block;
 	}
