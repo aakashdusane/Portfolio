@@ -3,8 +3,6 @@ title: Projects
 description: A list of my recent or noteworthy data science projects.
 permalink: /projects/
 ---
-# Portfolio
-Portfolio of data science projects completed by me for academic, self learning, and hobby purposes.
 
 ## Table Of Content
 
