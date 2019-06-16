@@ -1,4 +1,6 @@
 ---
+title: Projects
+description: A list of my recent or noteworthy data science projects.
 permalink: /projects/
 ---
 # Portfolio
