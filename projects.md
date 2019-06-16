@@ -1,7 +1,6 @@
 ---
 title: Projects
 description: A list of my recent or noteworthy data science projects.
-layout: post
 permalink: /projects/
 ---
 
