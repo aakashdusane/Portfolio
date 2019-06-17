@@ -8,14 +8,14 @@ permalink: /projects/
 
 [Spark Funds Investments](code/Spark Funds Investments.html)
 
-[NIFTY50 Stock Analysis](https://github.com/aakashdusane/Portfolio/blob/main/Stock%20Analysis%20%5BNifty%2050%5D%20.ipynb)
+[NIFTY50 Stock Analysis](code/stock_analysis_nifty.html)
 
-[Graduate Admissions EDA + Prediction](https://github.com/aakashdusane/Portfolio/blob/main/Graduate%20Admissions%20EDA%20%2B%20Prediction.ipynb)
+[Graduate Admissions EDA + Prediction](code/Graduate Admissions EDA + Prediction.html)
 
-[Uber Demand-Supply Gap EDA](https://github.com/aakashdusane/Portfolio/blob/main/Uber%20Demand-Supply%20Gap%20EDA.ipynb)
+[Uber Demand-Supply Gap EDA](code/Uber Demand-Supply Gap EDA.html)
 
-[Lending Club Loan Analysis](https://github.com/aakashdusane/Portfolio/blob/main/lending_club_loan_analysis.ipynb)
+[Lending Club Loan Analysis](code/lending_club_loan_analysis.html)
 
-[Trip Advisor Sentiment Analysis](https://github.com/aakashdusane/Portfolio/blob/main/trip_advisor.ipynb)
+[Trip Advisor Sentiment Analysis](code/trip_advisor.html)
 
-[Airbnb Next Destination Prediction](https://github.com/aakashdusane/Portfolio/blob/main/airbnb.ipynb)
+[Airbnb Next Destination Prediction](code/airbnb.html)
