@@ -6,7 +6,9 @@ permalink: /projects/
 
 ## Table Of Content
 
-[Spark Funds Investments](code/Spark Funds Investments.html)
+[Case Study: Lead Scoring](code/lead_scoring.html)
+
+[Case Study: Spark Funds Investments](code/Spark Funds Investments.html)
 
 [NIFTY50 Stock Analysis](code/stock_analysis_nifty.html)
 

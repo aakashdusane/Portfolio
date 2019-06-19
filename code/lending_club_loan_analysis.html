@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>lending_club_loan_analysis</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Loan Dataset</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11771,6 +11771,28 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Problem-Statement">Problem Statement<a class="anchor-link" href="#Problem-Statement">&#182;</a></h1><p>A consumer finance company specialises in lending various types of loans to urban customers. When the company receives a loan application, it has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:</p>
+<ul>
+<li><p>If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company</p>
+</li>
+<li><p>If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company</p>
+</li>
+</ul>
+<p>The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.</p>
+<p><img src="loan_image.png" alt=""></p>
+<h4 id="When-a-person-applies-for-a-loan,-there-are-two-types-of-decisions-that-could-be-taken-by-the-company:">When a person applies for a loan, there are two types of decisions that could be taken by the company:<a class="anchor-link" href="#When-a-person-applies-for-a-loan,-there-are-two-types-of-decisions-that-could-be-taken-by-the-company:">&#182;</a></h4><p><strong>Loan accepted:</strong> If the company approves the loan, there are 3 possible scenarios described below:</p>
+<p><strong>Fully paid:</strong> Applicant has fully paid the loan (the principal and the interest rate)</p>
+<p><strong>Current:</strong> Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.</p>
+<p><strong>Charged-off:</strong> Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has defaulted on the loan</p>
+<p><strong>Loan rejected:</strong> The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[93]:</div>
