@@ -4,8 +4,6 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en-us">
-  
-    <link rel="stylesheet" href="main.css">
 
   {% include head.html %}
 
@@ -33,9 +31,6 @@ layout: compress
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <!-- Holder.js Image Placeholders -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script> -->
-
     <script>
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
@@ -43,9 +38,11 @@ layout: compress
         var checkbox = document.querySelector('#sidebar-checkbox');
         document.addEventListener('click', function(e) {
           var target = e.target;
+
           if(!checkbox.checked ||
              sidebar.contains(target) ||
              (target === checkbox || target === toggle)) return;
+
           checkbox.checked = false;
         }, false);
       })(document);
@@ -56,15 +53,29 @@ layout: compress
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous">
   </script>
-  
-  <!-- Scroll to top script -->
-  <script>
-    $(".back-to-top i").click(function(){
-    $('body,html').animate({
-        scrollTop: 0
-    }, 2000);
-    });
-  </script>
 
+  <!-- Animated Modals-->
+  <!-- <script src="/public/js/animatedModal.min.js"></script> -->
+
+  <!-- Bootstrap JS & Tether -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <!-- D3 and Dimple -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.9.1/d3.min.js"></script>
+  <!-- <script src="/public/js/dimple.v2.3.0.min.js"></script> -->
+
+  <!-- TypedJS -->
+  <!-- <script src="/public/js/typed.js"></script> -->
+
+  <!-- ParsleyJS -->
+  <!-- <script src="/public/js/parsley.min.js"></script> -->
+
+  <!-- Holder.js Image Placeholders -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script> -->
+
+  <!-- Custom scripts -->
+  <!-- <script src="/public/js/scripts.js"></script> -->
+  {% js scripts %}
   </body>
 </html>
